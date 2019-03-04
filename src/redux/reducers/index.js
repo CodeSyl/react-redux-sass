@@ -1,5 +1,4 @@
 import { combineReducers } from 'redux';
-import brief from './brief';
-import product from './product';
+import auth from './auth';
 
-export default combineReducers({ brief, product });
+export default combineReducers({ auth });
