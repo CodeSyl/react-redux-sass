@@ -1,29 +1,33 @@
-html,
-body 
-  margin: 0;
-  padding: 0;
-  height: 100%;
-
-body 
-  background-color: #009688;
-
-h1,
-h2,
-h3, 
-  margin: 0;
+*, *::before, *::after
+  box-sizing: border-box
+  font-family: $roboto-regular
   
-  letter-spacing: 6px;
-  font-family: $suranna;
+html,
+  height: 100%
 
-p,
-a,
-  font-family: $roboto-regular;
+body 
+  margin: 0
 
-li
-  list-style: none
+h1, h2, h3, p
+  margin: 0 0 .75em
+
+h1:last-child, h2:last-child, h3:last-child, p:last-child
+  margin: 0
 
 img
-  width: 100%;
+  height: auto
+  max-width: 100%
+
+.container
+  width: 90%
+  max-width: 1200px
+  margin: 0 auto
+
+.unstyled-list
+  margin: 0
+  padding: 0
+  list-style: none
 
 .title
-  text-transform: uppercase;
+  letter-spacing: 2px
+  text-transform: uppercase
